@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ReactJS-travel-agency-website/static/css/main.b933ba2d.css",
-    "main.js": "/ReactJS-travel-agency-website/static/js/main.342371bb.js",
+    "main.js": "/ReactJS-travel-agency-website/static/js/main.b8b574a8.js",
     "static/media/img-2.jpg": "/ReactJS-travel-agency-website/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-1.jpg": "/ReactJS-travel-agency-website/static/media/img-1.53f4843759ebec256cb9.jpg",
     "static/media/img-8.jpg": "/ReactJS-travel-agency-website/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "index.html": "/ReactJS-travel-agency-website/index.html",
     "main.b933ba2d.css.map": "/ReactJS-travel-agency-website/static/css/main.b933ba2d.css.map",
-    "main.342371bb.js.map": "/ReactJS-travel-agency-website/static/js/main.342371bb.js.map"
+    "main.b8b574a8.js.map": "/ReactJS-travel-agency-website/static/js/main.b8b574a8.js.map"
   },
   "entrypoints": [
     "static/css/main.b933ba2d.css",
-    "static/js/main.342371bb.js"
+    "static/js/main.b8b574a8.js"
   ]
 }
