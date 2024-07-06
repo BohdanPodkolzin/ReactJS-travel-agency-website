@@ -19,7 +19,7 @@ function HeroSection() {
 
     return (
         <div id='top' className='hero-container'>
-            <video src='./videos/video-2.mp4' autoPlay loop muted />
+            <video src='videos/video-2.mp4' autoPlay loop muted />
             <h1>Travel with us!</h1>
             <p>Choose the best only</p>
             <div className='hero-btns'>
