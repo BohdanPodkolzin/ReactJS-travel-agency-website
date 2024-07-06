@@ -1,7 +1,7 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
 
-function footer() {
+function Footer() {
     return (
         <div className='footer-container'>
             <section className='footer-subscription'>
@@ -16,24 +16,24 @@ function footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About us</h2>
-                        <a>Get started</a>
-                        <a>Testimonials</a>
+                        <a href='/get-started'>Get started</a>
+                        <a href='/testimonials'>Testimonials</a>
                     </div>
                     <div className='footer-link-items2'>
-                        <a>Investors</a>
-                        <a>Terms of Service</a>
+                        <a href='/investors'>Investors</a>
+                        <a href='/terms-of-service'>Terms of Service</a>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
                         <a
-                            href='https://www.youtube.com/channel/UCgVhWRbWdlr-16i1gtm_NUQ'
+                            href='https://www.instagram.com/itstepukraine/'
                             target='_blank'
                             rel='noopener noreferrer'>
                             Instagram</a>
                         <a
-                            href='https://www.instagram.com/itstepukraine/'
+                            href='https://www.facebook.com/ITstepUkraine/?locale=ru_UA'
                             target='_blank'
                             rel='noopener noreferrer'>
                             Facebook</a>
@@ -56,4 +56,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer;

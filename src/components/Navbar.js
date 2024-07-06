@@ -40,10 +40,10 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <a className='navbar-logo' onClick={closeMobileMenu}>
+                    <div className='navbar-logo' onClick={closeMobileMenu}>
                         TRVL
                         <img src='images/dog-32-48.png' alt="Travel Logo" className="travel-logo-img" onClick={scrollToTop} />
-                    </a>
+                    </div>
                     <div className='menu-icon' onClick={handleClick}>
                         <img
                             src={click ? 'images/cancel-menu-img.png' : '/images/edit-menuu.png'}
@@ -86,9 +86,9 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <button className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Contact US!
-                            </a>
+                            </button>
                         </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline' onClick={scrollToEmailForm}>CONTACT US!</Button>}
