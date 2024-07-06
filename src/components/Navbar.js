@@ -42,11 +42,11 @@ function Navbar() {
                 <div className='navbar-container'>
                     <a className='navbar-logo' onClick={closeMobileMenu}>
                         TRVL
-                        <img src='/images/dog-32-48.png' alt="Travel Logo" className="travel-logo-img" onClick={scrollToTop} />
+                        <img src='./images/dog-32-48.png' alt="Travel Logo" className="travel-logo-img" onClick={scrollToTop} />
                     </a>
                     <div className='menu-icon' onClick={handleClick}>
                         <img
-                            src={click ? '/images/cancel-menu-img.png' : '/images/edit-menuu.png'}
+                            src={click ? './images/cancel-menu-img.png' : '/images/edit-menuu.png'}
                             alt="Menu Icon"
                             className="menu-icon-img"
                         />
