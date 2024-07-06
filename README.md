@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# ReactJS Travel Agency Website✈️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
 
-## Available Scripts
+You can check out the live demo of the project [here](https://bohdanpodkolzin.github.io/ReactJS-travel-agency-website/).
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js
+- npm (Node Package Manager)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setting Up EmailJS
 
-### `npm test`
+1. **Register an Account:**
+   - Create an account on [EmailJS](https://www.emailjs.com/).
+   
+2. **Create Email Service:**
+   - Add a new email service and get the Service ID.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Create Email Templates:**
+   - Add email templates and get the Template ID.
 
-### `npm run build`
+4. **Get Public Key:**
+   - Go to your EmailJS account settings to find your Public Key.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. **Configure EmailJS in the Project:**
+   - Find `serviceId`, `templateId`, and `publicKey` in `EmailForm.js` and input your data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installing Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To set up the project locally, run the following commands in your terminal:
 
-### `npm run eject`
+```sh
+npm install
+npm install jquery
+npm install react-router-dom
+npm install --save @emailjs/browser
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running the Project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the development server, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+- `src/components`: Contains the React components used in the project.
+  - `Button.js`: The button component.
+  - `CardItem.js`: The card item component.
+  - `Footer.js`: The footer component.
+  - `Navbar.js`: The navigation bar component.
+  - `pages/Home.js`: The home page component.
+- `src/App.js`: The main application component.
+- `src/App.css`: The main stylesheet for the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Configuring EmailJS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Register an account on [EmailJS](https://www.emailjs.com/) to receive emails from users.
+2. Add a new email service and get your Service ID.
+3. Add email templates and get your Template ID.
+4. Go to your account settings and find your Public Key.
 
-### Code Splitting
+Update the `EmailForm.js` file with your EmailJS credentials:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```javascript
+const serviceId = 'your_service_id';
+const templateId = 'your_template_id';
+const publicKey = 'your_public_key';
+```
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
